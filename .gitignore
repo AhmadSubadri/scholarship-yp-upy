@@ -1,32 +1,39 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+assets/css/tailwind.css
+assets/css/tailwind.css.map
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.project
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
 
-application/cache/*
-!application/cache/index.html
+# Logs
+logs/
+*.log
 
-application/logs/*
-!application/logs/index.html
+# CI3 specific
+application/cache/
+application/logs/
 
-!application/*/.htaccess
-
-composer.lock
-tests/mocks/database/ci_test.sqlite
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
-
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
-
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
-/tests/tests/
-/tests/results/
+# NPM specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
