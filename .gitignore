@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+vendor/
+
+# Build outputs
+assets/css/tailwind.css
+assets/css/tailwind.css.map
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+.project
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# CI3 specific
+application/cache/
+application/logs/
+
+# NPM specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
